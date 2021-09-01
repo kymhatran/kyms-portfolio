@@ -2,8 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 .body {
-  padding: 40px;
   background-color:#EA9FA4;
+}
+
+.portfolio {
+  background-color:#EA9FA4;
+   width: 1000px;
+  padding: 40px;
 }
 
 .image {
@@ -11,9 +16,23 @@
   margin-right: 20px;
 }
 
-.about-me{
+.banner{
   background-color: rgb(175, 156, 211);
   font-weight: bold;
   margin-bottom: 10px;
   padding: 5px;
+}
+
+.bio{
+  width: 50px;
+}
+
+.projects {
+  width: 105%;
+  margin-top: 5px;
+}
+
+.cv {
+  width: 95%;
+  margin-top: 20px;
 }
