@@ -1,10 +1,14 @@
 <div class= "body">
   <div class= "portfolio mx-auto">
+    <div class= "me">
       <h1><strong>🙋🏻‍♀️ Kym Ha-Tran</strong></h1>
         <p>
           Fullstack Developer 💻 <br>
           Follow me on github <%= link_to "@kymhatran", "https://github.com/kymhatran"%><br>
           Add me on LinkedIn <%= link_to "@kym-ha-tran", "https://www.linkedin.com/in/kym-ha-tran/"%></p>
+          <%= link_to "Contact me 📨", "mailto: kym.hatran@gmail.com", class: "btn"%>
+
+    </div>
     <hr>
     <div class="container col-md-12 d-flex">
       <div>
@@ -31,6 +35,20 @@
               <%= image_tag 'figma.png', width: 80, height: 90, crop: :fill%>
             </div>
             <div class="banner row projects"> PROJECTS </div>
+              <p class= "comments"> <strong> Worth-it </strong> is an application that shows you the impact of your financial decisions before you make them, it links to your UP account using your unique UP API key. It is an application unlike other banking apps, which show you the damage once it's done. </p>
+            <div class= "projects-img">
+              <%= image_tag 'worth-it.png', width: 500, height: 250, crop: :fill%>
+            </div>
+              <div>
+                <%= link_to "Click Here", "https://worth-it-app-kt.herokuapp.com/", class: "link" %>
+              </div>
+              <p class= "comments mt-2"> <strong> KymsGyms </strong> is an application which connects the community to personal trainers. This platform allows personal trainers to advertise their sessions and allows users to search based on their fitness levels, desired disciplines and allows them to book the trainers of their choice.</p>
+            <div class= "projects-img mt-4">
+              <%= image_tag 'kymsgyms.png', width: 500, height: 250, crop: :fill%>
+            </div>
+              <div>
+                <%= link_to "Click Here", "https://kymsgymsapp.herokuapp.com/", class: "link" %>
+              </div>
           </div>
         </div>
     </div>
