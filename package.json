@@ -1,5 +1,5 @@
 {
-  "name": "kyms_portfolio__database=postgresql",
+  "name": "kymsportfolio",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
